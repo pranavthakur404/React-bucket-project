@@ -31,7 +31,7 @@ function App() {
   }
 
   function moveToLeft() {
-    if (allData.right > 1) {
+    if (allData.right > 0) {
       setData((prevData) => {
         return {
           ...prevData,
